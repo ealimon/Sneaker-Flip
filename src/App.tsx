@@ -28,30 +28,30 @@ export default function App() {
       {/* Top Main Navigation Bar */}
       <header className="sticky top-0 z-40 bg-[#FDFCF6]/95 backdrop-blur-md border-b-4 border-slate-900 print:hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-20 gap-3">
+          <div className="flex items-center justify-between h-20 gap-4">
             {/* Brand Logo & Title */}
             <div 
               onClick={() => setCurrentView('storybook')}
-              className="flex items-center gap-3 cursor-pointer group shrink-0"
+              className="flex items-center gap-3 cursor-pointer group shrink-0 select-none mr-2"
             >
-              <div className="w-12 h-12 rounded-none border-3 border-slate-900 bg-orange-500 flex items-center justify-center text-white font-black text-2xl shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] group-hover:-translate-y-0.5 group-hover:shadow-[5px_5px_0px_0px_rgba(15,23,42,1)] transition">
+              <div className="w-11 h-11 rounded-none border-3 border-slate-900 bg-orange-500 flex items-center justify-center text-white font-black text-xl shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] group-hover:-translate-y-0.5 group-hover:shadow-[5px_5px_0px_0px_rgba(15,23,42,1)] transition shrink-0">
                 👟
               </div>
-              <div>
-                <div className="text-xl sm:text-2xl font-black text-slate-900 tracking-tighter flex items-center gap-2">
+              <div className="flex flex-col">
+                <div className="text-lg sm:text-xl font-black text-slate-900 tracking-tighter flex items-center gap-1.5 whitespace-nowrap">
                   <span>SNEAKER FLIP</span>
-                  <span className="text-[10px] font-black uppercase tracking-widest bg-cyan-400 text-slate-900 px-2 py-0.5 border-2 border-slate-900 shadow-[2px_2px_0px_0px_rgba(15,23,42,1)] -rotate-2">
+                  <span className="text-[10px] font-black uppercase tracking-widest bg-cyan-400 text-slate-900 px-1.5 py-0.5 border-2 border-slate-900 shadow-[2px_2px_0px_0px_rgba(15,23,42,1)] inline-block">
                     ACADEMY
                   </span>
                 </div>
-                <div className="text-xs font-bold text-slate-500 uppercase tracking-wider hidden sm:block">
-                  Story & Financial Literacy Suite
+                <div className="text-[11px] font-bold text-slate-500 uppercase tracking-wider hidden md:block">
+                  Financial Literacy Suite
                 </div>
               </div>
             </div>
 
             {/* Navigation Tabs */}
-            <nav className="flex-1 flex items-center justify-end gap-2 overflow-x-auto py-2 scrollbar-none" aria-label="Main Navigation">
+            <nav className="flex-1 min-w-0 flex items-center justify-end gap-2 overflow-x-auto py-2.5 px-1 scrollbar-thin" aria-label="Main Navigation">
               <button
                 id="nav-storybook"
                 type="button"
