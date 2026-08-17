@@ -193,8 +193,6 @@ export default function App() {
               👟
             </div>
             <span className="font-black text-slate-900 uppercase tracking-wider">Sneaker Flip Academy: Lesson on Financial Literacy</span>
-            <span className="text-slate-400">•</span>
-            <span className="text-slate-500">Geometric Balance Edition</span>
           </div>
 
           <div className="flex items-center gap-4 font-black uppercase tracking-wider">
