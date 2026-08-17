@@ -1,0 +1,6 @@
+{
+  "name": "The Sneaker Flip - Financial Literacy & Worksheets",
+  "description": "Interactive financial literacy learning experience and comprehensive worksheet suite based on The Sneaker Flip children's storybook, featuring supply & demand simulators, profit math ledgers, printable worksheets, market mini-game, and AI economics tutor.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
